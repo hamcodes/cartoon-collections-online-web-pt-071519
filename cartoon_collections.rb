@@ -5,8 +5,8 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(veggies)# code an argument here
-  names.map! {|name| name.upcase } 
-  names.each { |name| puts name + '!' }
+  veggies.map! {|name| name.upcase } 
+  veggies.each { |name| puts name + '!' }
 end
 
 def long_planeteer_calls# code an argument here
