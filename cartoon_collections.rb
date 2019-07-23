@@ -5,9 +5,8 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(calls)# code an argument here
-  names.map! {|name| name.capitalize } ['Danil', 'Edmund']
-
-names.each { |name| puts name + ' is a programmer' }
+  names.map! {|name| name.upcase } 
+  names.each { |name| puts name + '!' }
 end
 
 def long_planeteer_calls# code an argument here
