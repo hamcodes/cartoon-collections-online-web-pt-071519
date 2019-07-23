@@ -4,7 +4,7 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_planet(calls)# code an argument here
+def summon_captain_planet(veggies)# code an argument here
   names.map! {|name| name.upcase } 
   names.each { |name| puts name + '!' }
 end
