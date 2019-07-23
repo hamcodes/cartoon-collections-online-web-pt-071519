@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
-  array = []
-  array.each_with_index { |item, index| p "#{index}:#{item}" }
+  dwarves = []
+  dwarves.each_with_index { |item, index| p "#{index}:#{item}" }
   array
 end
 
